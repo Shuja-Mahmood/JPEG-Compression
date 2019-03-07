@@ -7,7 +7,8 @@ import math_functions
 import image_functions
 
 IMAGE_LOCATION = "test image.tiff"
-QUALITY = 64
+
+QUALITY = 64    # integer between (and including) 0 and 64
 
 image = image_functions.Image.open(IMAGE_LOCATION)
 
