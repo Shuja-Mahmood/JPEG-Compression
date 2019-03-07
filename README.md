@@ -10,20 +10,23 @@ This algorithm uses Discrete Cosine Transform to compress images
 ## How to use
 - Install [Python 3](https://www.python.org/downloads/)
 - Install Pillow (Python image library)
+- Edit main.py and specify image location and quality
+- Run main.py
 
-##### Windows
+## Installing Pillow
+#### Windows
 Type in command prompt
 ```
 python -m pip install Pillow
 ```
 
-##### MacOS
+#### MacOS
 Type in terminal
 ```
 pip install Pillow
 ```
 
-##### Linux
+#### Linux
 Type in bash
 ```
 sudo pip3 install Pillow
